@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mt-[-500px] sm:mt-[-600px] md:mt-[-500px] lg:mt-[-500px]">
+  <div class="relative mt-[-500px] sm:mt-[-600px] md:mt-[-500px] lg:mt-[-500px] xl:mt-[-410px]">
     <div class="flex flex-col sm:flex-row w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 ">
       <!-- First Box -->
       <div class="w-full sm:w-1/3 h-24 sm:h-28 md:h-32 rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none border border-gray-200 flex flex-col items-center justify-center bg-white relative">

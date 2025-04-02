@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-start w-full mt-15 sm:mt-17 md:mt-20">
-    <div class="bg-gradient-to-t from-white to-gray-200 w-full sm:w-[400px] h-[400px] rounded-2xl p-2 sm:p-4 grid grid-cols-2 grid-rows-2 gap-2 sm:ml-70 md:ml-100 lg:ml-160 xl:ml-60 2xl:ml-230">
+    <div class="bg-gradient-to-t from-white to-gray-200 w-full sm:w-[400px] h-[400px] rounded-2xl p-2 sm:p-4 grid grid-cols-2 grid-rows-2 gap-2 sm:ml-70 md:ml-100 lg:ml-160 xl:ml-200 2xl:ml-230">
       <!-- Loading State -->
       <div v-if="loading" class="col-span-2 row-span-2 flex items-center justify-center">
         <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-400"></div>
