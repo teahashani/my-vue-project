@@ -1,6 +1,6 @@
 <template>
   <div class="relative flex justify-center">
-    <div class="mt-[-450px] w-full sm:w-[450px] md:w-[680px] lg:w-[1380px] lg:h-[270px] bg-black rounded-2xl shadow-lg p-4 sm:p-6 md:p-8">
+    <div class="mt-[-450px] w-full sm:w-[450px] md:w-[680px] lg:w-[1380px] lg:h-[270px] bg-black rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 sm:-mt-80 2xl:-mt-70px sm:-ml-8px ">
       <div class="flex flex-col lg:flex-row">
         <!-- Left side with Image -->
         <div class="hidden lg:block lg:w-1/2 relative">
