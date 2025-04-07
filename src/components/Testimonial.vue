@@ -9,9 +9,17 @@
         Our Happy Client Says
       </h1>
     </div>
+
+    <div class="hidden lg:block lg:w-1/2 relative">
+          <img 
+            src="/background.png" 
+            alt="Background" 
+            class="w-[400px] lg:h-[270px] xl:h-[290px] 2xl:h-[290px] h-auto mx-auto scale-110 -mt-22 rounded-l-2xl md:-ml-10 lg:ml-80 lg:-mt-130 xl:ml-80 xl:-mt-120 2xl:ml-100 2xl:-mt-170"
+          />
+        </div>
     <!-- Testimonial Card (Fixed Left Margin Removed) -->
     <div
-    class="testimonial-box w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl bg-white rounded-2xl shadow-lg p-4 sm:p-12 md:p-10 mx-auto sm:-mt-75 md:-mt-120 2xl:-mt-170 sm:ml-15 md:-ml-2 xl:ml-8 lg:mr-100 xl:mr-170 2xl:mr-200"
+    class="testimonial-box w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl bg-white rounded-2xl shadow-lg p-4 sm:p-12 md:p-10 mx-auto sm:-mt-75 md:-mt-120 2xl:-mt-160 sm:ml-15 md:-ml-2 xl:ml-8 lg:mr-100 xl:mr-170 2xl:mr-200"
     >
       <div class="flex items-center justify-between gap-2 sm:gap-4">
         <!-- Left Button -->
