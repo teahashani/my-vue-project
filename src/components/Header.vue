@@ -4,7 +4,7 @@
       <img 
             src="/logo.png" 
             alt="Logo" 
-            class="w-[100px] lg:h-[50px] h-auto mx-auto scale-110 -mt-22 rounded-l-2xl md:-ml-1 lg:ml-6 xl:ml-17 lg:-mt-2 md:-mt-2 sm:-mt-2"
+            class="w-[100px] lg:h-[50px] h-auto mx-auto scale-110 -mt-22 rounded-l-2xl md:-ml-1 lg:ml-6 xl:ml-17 lg:-mt-2 md:-mt-2 sm:-mt-2 2xl:-ml-10"
           />
       
       <!-- Mobile Menu Button -->
