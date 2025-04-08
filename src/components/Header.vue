@@ -1,7 +1,11 @@
 <template>
   <header class="w-full fixed top-0 left-0 bg-white text-black py-2 sm:py-3 md:py-4 flex justify-center font-montserrat z-50 shadow-sm">
     <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex items-center justify-between">
-      <h1 class="text-xl sm:text-2xl md:text-3xl font-bold">logo</h1>
+      <img 
+            src="/logo.png" 
+            alt="Logo" 
+            class="w-[100px] lg:h-[50px] h-auto mx-auto scale-110 -mt-22 rounded-l-2xl md:-ml-1 lg:ml-6 xl:ml-17 lg:-mt-2 md:-mt-2 sm:-mt-2"
+          />
       
       <!-- Mobile Menu Button -->
       <button @click="toggleMenu" class="lg:hidden text-xl sm:text-2xl p-2 hover:bg-gray-100 rounded-lg transition-colors">
