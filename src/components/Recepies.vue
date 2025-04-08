@@ -44,7 +44,7 @@
             <img :src="recipe.image" :alt="recipe.title" class="w-full h-full object-cover" />
             <!-- Favorite Button -->
             <button @click="toggleFavorite(recipe)"
-                    class="absolute top-2 right-2 bg-white/90 p-2 rounded-full shadow-md hover:bg-orange-200 transition-colors z-10">
+                    class="absolute top-2 right-2 bg-white/90 p-2 rounded-full shadow-md hover:bg-gray-200 transition-colors z-10">
               <svg xmlns="http://www.w3.org/2000/svg" 
                    :class="isFavorite(recipe.id) ? 'text-red-500 fill-current' : 'text-gray-500'"
                    class="h-5 w-5 sm:h-6 sm:w-6" 
