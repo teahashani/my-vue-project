@@ -1,13 +1,13 @@
 <template>
-  <div class="relative flex justify-center">
-    <div class="mt-[-450px] w-full sm:w-[450px] md:w-[680px] lg:w-[1380px] lg:h-[270px] bg-black rounded-2xl shadow-lg p-4 sm:p-6 md:p-8">
+  <div class="relative flex justify-center mb-8 sm:mb-10 md:mb-12">
+    <div class="w-full sm:w-[450px] md:w-[680px] lg:w-[1380px] lg:h-[270px] bg-black rounded-2xl shadow-lg p-4 sm:p-6 md:p-8">
       <div class="flex flex-col lg:flex-row">
         <!-- Left side with Image -->
         <div class="hidden lg:block lg:w-1/2 relative">
           <img 
             src="/burger.png" 
             alt="Burger" 
-            class="w-[400px] lg:h-[390px] h-auto mx-auto scale-110 -mt-22 ml-22 rounded-l-2xl"
+            class="w-[400px] lg:h-[390px] h-auto mx-auto scale-110 -mt-22 rounded-l-2xl md:ml-1 lg:ml-6 xl:ml-17"
           />
         </div>
 

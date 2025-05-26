@@ -1,7 +1,7 @@
 <template>
  <div class="relative">
     <!-- Text -->
-    <div class="absolute top-[205%] sm:top-[200%] md:top-[195%] lg:top-[190%] left-1/2 transform -translate-x-1/2 flex flex-col items-center text-center px-4 py-8 sm:py-10 md:py-38 space-y-2 sm:space-y-3 md:space-y-4 w-full">
+    <div class="absolute top-[205%] sm:top-[200%] md:top-[195%] lg:top-[190%] 2xl:top-[20px] left-1/2 transform -translate-x-1/2 flex flex-col items-center text-center px-4 py-8 sm:py-10 md:py-38 space-y-2 sm:space-y-3 md:space-y-4 w-full">
       <h2 class="text-base sm:text-lg md:text-xl lg:text-xl font-light text-orange-400 mb-1 sm:mb-2">Services</h2>
       <h1 class="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-4xl font-bold leading-tight">Why Choose Our Favourite Food</h1>
     </div> 

@@ -1,14 +1,13 @@
 <template>
-  <div class="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-8">
+  <div class="relative flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-12">
     <!-- Text -->
-    <div class="relative text-center px-4 py-8 sm:py-10 md:py-1 space-y-2 sm:space-y-3 md:space-y-4 w-full 
-      -mt-175 sm:-mt-160 md:-mt-135 lg:-mt-120">
+    <div class="relative text-center px-4 space-y-2 sm:space-y-3 md:space-y-4 w-full">
       <h2 class="text-base sm:text-lg md:text-xl lg:text-2xl font-light text-orange-400 mb-1 sm:mb-2">Testimonials</h2>
       <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight">Our Happy Client Says</h1>
     </div>
 
     <!-- Content -->
-    <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 mx-4 sm:mx-6 md:mx-8 lg:ml-[-10px] xl:ml-[-10px]">
+    <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 mx-4 sm:mx-6 md:mx-8 lg:ml-[-10px] xl:ml-[-10px] mt-8">
       <div class="flex items-center justify-between gap-2 sm:gap-4">
         <!-- Left Button -->
         <button class="w-8 h-8 sm:w-10 sm:h-10 bg-orange-400 rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
