@@ -1,8 +1,8 @@
 <template>
-  <div class="relative mt-[30px] sm:mt-[20px] md:mt-[15px] lg:mt-[45px]">
+  <div class="relative mt-[30px] sm:mt-[100px] md:mt-[95px] lg:mt-[105px] xl:mt-[105px] 2xl:mt-[130px]">
     <!-- Title -->
     <div class="relative">
-      <div class="text-center mb-4 sm:mb-6 md:mb-8">
+      <div class="text-center mb-4 sm:mb-1 md:mb-8">
         <div class="mb-2 sm:mb-3">
           <h2 class="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-light text-orange-400">Product</h2>
           <h1 class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold leading-tight mt-1 sm:mt-2">Most Popular Items</h1>
@@ -44,7 +44,7 @@
             <img :src="recipe.image" :alt="recipe.title" class="w-full h-full object-cover" />
             <!-- Favorite Button -->
             <button @click="toggleFavorite(recipe)"
-                    class="absolute top-2 right-2 bg-white/90 p-2 rounded-full shadow-md hover:bg-orange-200 transition-colors z-10">
+                    class="absolute top-2 right-2 bg-white/90 p-2 rounded-full shadow-md hover:bg-gray-200 transition-colors z-10">
               <svg xmlns="http://www.w3.org/2000/svg" 
                    :class="isFavorite(recipe.id) ? 'text-red-500 fill-current' : 'text-gray-500'"
                    class="h-5 w-5 sm:h-6 sm:w-6" 
@@ -117,11 +117,11 @@
       </div>
 
        <!-- See More Button -->
-      <div class="flex justify-center mt-4 sm:mt-6 md:mt-8">
-     <button class="bg-orange-400 text-white px-4 sm:px-6 md:px-8 py-2 sm:py-2 rounded-full hover:bg-orange-500 transition-colors text-sm sm:text-base md:text-lg font-semibold flex items-center gap-2">
+      <div class="flex justify-center mt-4 sm:mt-12 md:mt-15">
+     <button class="bg-orange-400 text-white px-4 sm:px-8 md:px-8 py-2 sm:py-2 rounded-full hover:bg-orange-500 transition-colors text-sm sm:text-base md:text-lg font-semibold flex items-center gap-2">
       See More
       <span class="bg-white rounded-full p-1 sm:p-1.5 md:p-2 flex items-center justify-center">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 md:h-4 md:w-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 md:h-4 md:w-5 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3.5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
       </svg>
     </span>

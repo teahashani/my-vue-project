@@ -1,8 +1,8 @@
 <template>
   <div class="relative">
     <!-- Text Section -->
-    <div class="relative text-center px-4 py-8 sm:py-10 md:py-12 space-y-2 sm:space-y-3 md:space-y-4 w-full 
-      mt-8 sm:mt-12 md:mt-10 lg:mt-20">
+    <div class="relative text-center px-4 py-8 md:py-12 space-y-2 sm:space-y-3 md:space-y-4 w-full 
+      mt-8 sm:mt-12 md:mt-10 lg:mt-20 sm:py-40 2xl:-top-15">
       <h2 class="text-base sm:text-lg md:text-xl lg:text-2xl font-light text-orange-400 mb-1 sm:mb-2">How to work</h2>
       <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight">Food Is An Important Part Of A Balanced Diet</h1>
     </div>
